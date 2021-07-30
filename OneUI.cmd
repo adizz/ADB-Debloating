@@ -198,6 +198,7 @@ echo Яндекс
 
 echo Netflix
 %~dp0adb shell pm uninstall --user 0 com.netflix.mediaclient
+%~dp0adb shell pm uninstall --user 0 com.netflix.partner.activation
 
 %~dp0adb kill-server
 echo.
