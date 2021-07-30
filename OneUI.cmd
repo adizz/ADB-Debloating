@@ -144,22 +144,8 @@ echo Samsung Pass Provider
 echo Samsung Pay
 %~dp0adb shell pm uninstall --user 0 com.samsung.android.spay
 
-echo Secure Folder
-%~dp0adb shell pm uninstall --user 0 com.samsung.knox.securefolder
-
-echo SmartThings
-%~dp0adb shell pm uninstall --user 0 com.samsung.android.beaconmanager
-%~dp0adb shell pm uninstall --user 0 com.samsung.android.oneconnect
-
 echo Smart Tutor
 %~dp0adb shell pm uninstall --user 0 com.rsupport.rs.activity.rsupport.aas2
-
-echo SwiftKey factory settings
-%~dp0adb shell pm uninstall --user 0 com.touchtype.swiftkey
-%~dp0adb shell pm uninstall --user 0 com.swiftkey.swiftkeyconfigurator
-
-echo Wearable Manager Installer
-%~dp0adb shell pm uninstall --user 0 com.samsung.android.app.watchmanagerstub
 
 echo YouTube
 %~dp0adb shell pm uninstall --user 0 com.google.android.youtube
@@ -173,23 +159,11 @@ echo Автозаполнение с Samsung Pass
 echo Включение голосом
 %~dp0adb shell pm uninstall --user 0 com.samsung.android.bixby.wakeup
 
-echo Главный экран Samsung DeX
-%~dp0adb shell pm uninstall --user 0 com.sec.android.app.desktoplauncher
-
-echo Google Диск
-%~dp0adb shell pm uninstall --user 0 com.google.android.apps.docs
-
 echo Диспетчер вашего телефона
 %~dp0adb shell pm uninstall --user 0 com.microsoft.appmanager
 
 echo Звукозапись
 %~dp0adb shell pm uninstall --user 0 com.sec.android.app.voicenote
-
-echo Карты
-%~dp0adb shell pm uninstall --user 0 com.google.android.apps.maps
-
-echo Каталог живых обоев
-%~dp0adb shell pm uninstall --user 0 com.android.wallpaper.livepicker
 
 echo Клавиатура Microsoft SwiftKey
 %~dp0adb shell pm uninstall --user 0 com.touchtype.swiftkey
@@ -209,35 +183,21 @@ echo Напоминания
 echo Погода
 %~dp0adb shell pm uninstall --user 0 com.sec.android.daemonapp
 
-echo Прямая расшифровка
-%~dp0adb shell pm uninstall --user 0 com.google.audio.hearing.visualization.accessibility.scribe
 
 echo Редактор AR-эмодзи
 %~dp0adb shell pm uninstall --user 0 com.samsung.android.aremojieditor
 
-echo Руководство пользователя
-%~dp0adb shell pm uninstall --user 0 com.sec.android.widgetapp.webmanual
-
-echo SIM-карта
-%~dp0adb shell pm uninstall --user 0 com.android.stk
-
-echo Служба Bixby
-%~dp0adb shell pm uninstall --user 0 com.samsung.android.bixby.service
-
-echo Советы
-%~dp0adb shell pm uninstall --user 0 com.samsung.android.app.tips
-
 echo Стикеры AR Emoji
 %~dp0adb shell pm uninstall --user 0 com.sec.android.mimage.avatarstickers
-
-echo Сценарии Bixby
-%~dp0adb shell pm uninstall --user 0 com.samsung.android.app.routines
 
 echo Установщик Kids
 %~dp0adb shell pm uninstall --user 0 com.samsung.android.kidsinstaller
 
 echo Яндекс
 %~dp0adb shell pm uninstall --user 0 ru.yandex.searchplugin
+
+echo Netflix
+%~dp0adb shell pm uninstall --user 0 com.netflix.mediaclient
 
 %~dp0adb kill-server
 echo.
